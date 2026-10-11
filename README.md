@@ -2,6 +2,8 @@
 
 Companion code for **Artificial Intelligence in Highway Engineering** by Subasish Das.
 
+**Website: <https://ai-in-transportation-lab.github.io/ai-in-he/>**: browse every script with its figure and a download link.
+
 Every code listing in the book's case studies is here as a runnable Python script, organised by chapter. The scripts generate their own synthetic data, so you can reproduce each figure and printed result with no data access agreements. Chapter 4, Case Study 2 downloads one small model and one image.
 
 <p align="center">
@@ -26,12 +28,33 @@ Chapter 1 is conceptual and has no code listings. Chapters 2 to 8 each have two 
 
 Each chapter folder has its own README with the problem statement, libraries used and the figure the script reproduces.
 
+## A taste of the code
+
+Simulated annealing for charger siting (Chapter 8, Case Study 2). The full scripts are on the [website](https://ai-in-transportation-lab.github.io/ai-in-he/chapters/) and in [`chapters/`](chapters/).
+
+```python
+def anneal(Q, c, sweeps=3000, T0=50.0, T1=0.05, seed=0):
+    r = np.random.default_rng(seed)
+    x = r.integers(0, 2, len(Q)).astype(float)
+    e = energy(x, Q, c)
+    for s in range(sweeps):
+        T = T0 * (T1 / T0) ** (s / sweeps)
+        i = r.integers(len(Q))
+        x[i] = 1 - x[i]
+        e_new = energy(x, Q, c)
+        if e_new <= e or r.random() < np.exp(-(e_new - e) / T):
+            e = e_new
+        else:
+            x[i] = 1 - x[i]
+    return e, x
+```
+
 ## Quick start
 
 You need Python 3.11 or 3.12 (TensorFlow does not yet support newer versions). [uv](https://docs.astral.sh/uv/) is the easiest way to get a matching environment:
 
 ```bash
-git clone https://github.com/<your-username>/ai-in-he.git
+git clone https://github.com/AI-in-Transportation-Lab/ai-in-he.git
 cd ai-in-he
 uv sync                                   # creates .venv and installs dependencies
 uv run python scripts/run_all.py          # run every case study
@@ -82,11 +105,21 @@ ai-in-he/
 ├── scripts/
 │   ├── run_all.py                          # run all / one chapter / one case study
 │   └── fetch_assets.py                     # downloads files for Ch. 4 CS2
+├── index.md, getting-started.md, _config.yml  # Jekyll site (GitHub Pages)
 ├── docs/figures/                           # reference figures as printed in the book
 ├── data/                                   # cache for downloaded assets (git-ignored)
 ├── outputs/                                # generated figures and files (git-ignored)
 ├── pyproject.toml  uv.lock  requirements.txt  Makefile
 └── README.md
+```
+
+## Website
+
+The site is built with Jekyll and the [just-the-docs](https://just-the-docs.com) theme. Each chapter page embeds the case-study scripts straight from `chapters/`, so the site cannot drift from the code. To publish: in the GitHub repo go to **Settings → Pages → Build and deployment**, choose **Deploy from a branch**, branch `main`, folder `/ (root)`. To preview locally:
+
+```bash
+bundle install
+bundle exec jekyll serve      # http://localhost:4000/ai-in-he/
 ```
 
 ## Reproducibility notes
