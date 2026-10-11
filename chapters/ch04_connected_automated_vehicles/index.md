@@ -22,7 +22,7 @@ Generate 200 top-down road scenes with controlled vehicle class, density, trunca
 
 **Libraries:** OpenCV, NumPy, matplotlib
 
-[Download `cs1_synthetic_perception_dataset.py`](cs1_synthetic_perception_dataset.py){: .btn .btn-primary .fs-3 .mr-2 } [View on GitHub](https://github.com/AI-in-Transportation-Lab/ai-in-he/blob/main/chapters/ch04_connected_automated_vehicles/cs1_synthetic_perception_dataset.py){: .btn .fs-3 }
+[Download cs1_synthetic_perception_dataset.py](cs1_synthetic_perception_dataset.py){: .btn .btn-primary .fs-3 .mr-2 } [View on GitHub](https://github.com/AI-in-Transportation-Lab/ai-in-he/blob/main/chapters/ch04_connected_automated_vehicles/cs1_synthetic_perception_dataset.py){: .btn .fs-3 }
 
 ![A synthetic, automatically labeled perception dataset]({{ '/docs/figures/chap04_fig_synthetic_samples.png' | relative_url }})
 *Figure as printed in the book.*
@@ -37,7 +37,7 @@ Run a pretrained YOLO11n ONNX detector on CPU, implement letterbox pre-/post-pro
 
 **Libraries:** ONNX Runtime, OpenCV, matplotlib
 
-[Download `cs2_onnx_detector_robustness.py`](cs2_onnx_detector_robustness.py){: .btn .btn-primary .fs-3 .mr-2 } [View on GitHub](https://github.com/AI-in-Transportation-Lab/ai-in-he/blob/main/chapters/ch04_connected_automated_vehicles/cs2_onnx_detector_robustness.py){: .btn .fs-3 }
+[Download cs2_onnx_detector_robustness.py](cs2_onnx_detector_robustness.py){: .btn .btn-primary .fs-3 .mr-2 } [View on GitHub](https://github.com/AI-in-Transportation-Lab/ai-in-he/blob/main/chapters/ch04_connected_automated_vehicles/cs2_onnx_detector_robustness.py){: .btn .fs-3 }
 
 ![Edge object detection and robustness testing]({{ '/docs/figures/chap04_fig_detection_robustness.png' | relative_url }})
 *Figure as printed in the book.*

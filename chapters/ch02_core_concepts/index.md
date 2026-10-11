@@ -22,7 +22,7 @@ Predict hourly volume from calendar and weather covariates with a multilayer per
 
 **Libraries:** scikit-learn, pandas, matplotlib
 
-[Download `cs1_mlp_traffic_volume.py`](cs1_mlp_traffic_volume.py){: .btn .btn-primary .fs-3 .mr-2 } [View on GitHub](https://github.com/AI-in-Transportation-Lab/ai-in-he/blob/main/chapters/ch02_core_concepts/cs1_mlp_traffic_volume.py){: .btn .fs-3 }
+[Download cs1_mlp_traffic_volume.py](cs1_mlp_traffic_volume.py){: .btn .btn-primary .fs-3 .mr-2 } [View on GitHub](https://github.com/AI-in-Transportation-Lab/ai-in-he/blob/main/chapters/ch02_core_concepts/cs1_mlp_traffic_volume.py){: .btn .fs-3 }
 
 ![A neural network for hourly traffic volume]({{ '/docs/figures/chap02_fig01_mlp_traffic.png' | relative_url }})
 *Figure as printed in the book.*
@@ -37,7 +37,7 @@ Estimate AADT on uncounted segments of a synthetic road network from segment att
 
 **Libraries:** TensorFlow/Keras, networkx, scikit-learn
 
-[Download `cs2_gnn_local_volume.py`](cs2_gnn_local_volume.py){: .btn .btn-primary .fs-3 .mr-2 } [View on GitHub](https://github.com/AI-in-Transportation-Lab/ai-in-he/blob/main/chapters/ch02_core_concepts/cs2_gnn_local_volume.py){: .btn .fs-3 }
+[Download cs2_gnn_local_volume.py](cs2_gnn_local_volume.py){: .btn .btn-primary .fs-3 .mr-2 } [View on GitHub](https://github.com/AI-in-Transportation-Lab/ai-in-he/blob/main/chapters/ch02_core_concepts/cs2_gnn_local_volume.py){: .btn .fs-3 }
 
 ![A graph neural network for volume on uncounted local roads]({{ '/docs/figures/chap02_fig02_gnn_volume.png' | relative_url }})
 *Figure as printed in the book.*

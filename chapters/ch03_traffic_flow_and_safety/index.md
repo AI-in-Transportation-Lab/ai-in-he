@@ -22,7 +22,7 @@ Forecast hourly volume 1 h and 24 h ahead; compare seasonal-naive, SARIMA, gradi
 
 **Libraries:** statsmodels, TensorFlow/Keras, scikit-learn
 
-[Download `cs1_volume_forecasting.py`](cs1_volume_forecasting.py){: .btn .btn-primary .fs-3 .mr-2 } [View on GitHub](https://github.com/AI-in-Transportation-Lab/ai-in-he/blob/main/chapters/ch03_traffic_flow_and_safety/cs1_volume_forecasting.py){: .btn .fs-3 }
+[Download cs1_volume_forecasting.py](cs1_volume_forecasting.py){: .btn .btn-primary .fs-3 .mr-2 } [View on GitHub](https://github.com/AI-in-Transportation-Lab/ai-in-he/blob/main/chapters/ch03_traffic_flow_and_safety/cs1_volume_forecasting.py){: .btn .fs-3 }
 
 ![Short-term traffic volume forecasting]({{ '/docs/figures/chap03_fig01_traffic_forecast.png' | relative_url }})
 *Figure as printed in the book.*
@@ -37,7 +37,7 @@ Estimate the probability of a crash in a 5-minute freeway interval; compare logi
 
 **Libraries:** TensorFlow/Keras, scikit-learn
 
-[Download `cs2_crash_risk_classification.py`](cs2_crash_risk_classification.py){: .btn .btn-primary .fs-3 .mr-2 } [View on GitHub](https://github.com/AI-in-Transportation-Lab/ai-in-he/blob/main/chapters/ch03_traffic_flow_and_safety/cs2_crash_risk_classification.py){: .btn .fs-3 }
+[Download cs2_crash_risk_classification.py](cs2_crash_risk_classification.py){: .btn .btn-primary .fs-3 .mr-2 } [View on GitHub](https://github.com/AI-in-Transportation-Lab/ai-in-he/blob/main/chapters/ch03_traffic_flow_and_safety/cs2_crash_risk_classification.py){: .btn .fs-3 }
 
 ![Real-time crash risk classification]({{ '/docs/figures/chap03_fig02_crash_risk.png' | relative_url }})
 *Figure as printed in the book.*

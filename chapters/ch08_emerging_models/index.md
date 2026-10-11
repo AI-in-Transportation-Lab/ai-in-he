@@ -22,7 +22,7 @@ Train a tabular Q-learning controller for a two-phase intersection and compare i
 
 **Libraries:** NumPy, matplotlib
 
-[Download `cs1_q_learning_signal_control.py`](cs1_q_learning_signal_control.py){: .btn .btn-primary .fs-3 .mr-2 } [View on GitHub](https://github.com/AI-in-Transportation-Lab/ai-in-he/blob/main/chapters/ch08_emerging_models/cs1_q_learning_signal_control.py){: .btn .fs-3 }
+[Download cs1_q_learning_signal_control.py](cs1_q_learning_signal_control.py){: .btn .btn-primary .fs-3 .mr-2 } [View on GitHub](https://github.com/AI-in-Transportation-Lab/ai-in-he/blob/main/chapters/ch08_emerging_models/cs1_q_learning_signal_control.py){: .btn .fs-3 }
 
 ![Learning a signal control policy from experience]({{ '/docs/figures/chap08_fig01_signal_control.png' | relative_url }})
 *Figure as printed in the book.*
@@ -37,7 +37,7 @@ Cast EV-charger siting as a QUBO, solve it by exhaustive search and simulated an
 
 **Libraries:** NumPy, itertools, matplotlib
 
-[Download `cs2_charger_qubo.py`](cs2_charger_qubo.py){: .btn .btn-primary .fs-3 .mr-2 } [View on GitHub](https://github.com/AI-in-Transportation-Lab/ai-in-he/blob/main/chapters/ch08_emerging_models/cs2_charger_qubo.py){: .btn .fs-3 }
+[Download cs2_charger_qubo.py](cs2_charger_qubo.py){: .btn .btn-primary .fs-3 .mr-2 } [View on GitHub](https://github.com/AI-in-Transportation-Lab/ai-in-he/blob/main/chapters/ch08_emerging_models/cs2_charger_qubo.py){: .btn .fs-3 }
 
 ![Formulating charger siting as a QUBO]({{ '/docs/figures/chap08_fig02_charger_qubo.png' | relative_url }})
 *Figure as printed in the book.*

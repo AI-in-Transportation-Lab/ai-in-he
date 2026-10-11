@@ -22,7 +22,7 @@ Simulate a 1,000-segment inventory, fit baseline / linear / ensemble models for 
 
 **Libraries:** scikit-learn, pandas, matplotlib
 
-[Download `cs1_pavement_screening.py`](cs1_pavement_screening.py){: .btn .btn-primary .fs-3 .mr-2 } [View on GitHub](https://github.com/AI-in-Transportation-Lab/ai-in-he/blob/main/chapters/ch06_infrastructure_management/cs1_pavement_screening.py){: .btn .fs-3 }
+[Download cs1_pavement_screening.py](cs1_pavement_screening.py){: .btn .btn-primary .fs-3 .mr-2 } [View on GitHub](https://github.com/AI-in-Transportation-Lab/ai-in-he/blob/main/chapters/ch06_infrastructure_management/cs1_pavement_screening.py){: .btn .fs-3 }
 
 ![Pavement deterioration and treatment screening]({{ '/docs/figures/chap06_fig01_pavement_screening.png' | relative_url }})
 *Figure as printed in the book.*
@@ -37,7 +37,7 @@ Simulate pavement condition over time and compare fixed-threshold maintenance tr
 
 **Libraries:** NumPy, pandas, matplotlib
 
-[Download `cs2_pavement_digital_twin.py`](cs2_pavement_digital_twin.py){: .btn .btn-primary .fs-3 .mr-2 } [View on GitHub](https://github.com/AI-in-Transportation-Lab/ai-in-he/blob/main/chapters/ch06_infrastructure_management/cs2_pavement_digital_twin.py){: .btn .fs-3 }
+[Download cs2_pavement_digital_twin.py](cs2_pavement_digital_twin.py){: .btn .btn-primary .fs-3 .mr-2 } [View on GitHub](https://github.com/AI-in-Transportation-Lab/ai-in-he/blob/main/chapters/ch06_infrastructure_management/cs2_pavement_digital_twin.py){: .btn .fs-3 }
 
 ![Maintenance-trigger policies in a pavement digital twin]({{ '/docs/figures/chap06_fig02_pavement_maintenance.png' | relative_url }})
 *Figure as printed in the book.*

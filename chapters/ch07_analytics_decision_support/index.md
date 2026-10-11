@@ -22,7 +22,7 @@ From record-level synthetic crashes (KABCO severity), compute conditional severi
 
 **Libraries:** pandas, NumPy, matplotlib
 
-[Download `cs1_exposure_adjusted_crashes.py`](cs1_exposure_adjusted_crashes.py){: .btn .btn-primary .fs-3 .mr-2 } [View on GitHub](https://github.com/AI-in-Transportation-Lab/ai-in-he/blob/main/chapters/ch07_analytics_decision_support/cs1_exposure_adjusted_crashes.py){: .btn .fs-3 }
+[Download cs1_exposure_adjusted_crashes.py](cs1_exposure_adjusted_crashes.py){: .btn .btn-primary .fs-3 .mr-2 } [View on GitHub](https://github.com/AI-in-Transportation-Lab/ai-in-he/blob/main/chapters/ch07_analytics_decision_support/cs1_exposure_adjusted_crashes.py){: .btn .fs-3 }
 
 ![Exposure-adjusted crash analysis]({{ '/docs/figures/chap07_fig01_ka_share_rate.png' | relative_url }})
 *Figure as printed in the book.*
@@ -37,7 +37,7 @@ Distinguish a documented assertion from the mere presence of a word in ten inven
 
 **Libraries:** re, matplotlib
 
-[Download `cs2_crash_narrative_screening.py`](cs2_crash_narrative_screening.py){: .btn .btn-primary .fs-3 .mr-2 } [View on GitHub](https://github.com/AI-in-Transportation-Lab/ai-in-he/blob/main/chapters/ch07_analytics_decision_support/cs2_crash_narrative_screening.py){: .btn .fs-3 }
+[Download cs2_crash_narrative_screening.py](cs2_crash_narrative_screening.py){: .btn .btn-primary .fs-3 .mr-2 } [View on GitHub](https://github.com/AI-in-Transportation-Lab/ai-in-he/blob/main/chapters/ch07_analytics_decision_support/cs2_crash_narrative_screening.py){: .btn .fs-3 }
 
 ![Evidence screening in crash narratives]({{ '/docs/figures/chap07_fig02_narrative_screen.png' | relative_url }})
 *Figure as printed in the book.*
