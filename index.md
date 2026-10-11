@@ -70,6 +70,9 @@ uv sync
 uv run python scripts/run_all.py
 ```
 
+{% comment %}
+TODO: restore once the final book citation is available.
+
 ## Citation
 
 ```bibtex
@@ -79,5 +82,6 @@ uv run python scripts/run_all.py
   year   = {2026}
 }
 ```
+{% endcomment %}
 
 Developed with the Artificial Intelligence in Transportation (AIT) Lab at Texas State University.
