@@ -139,3 +139,7 @@ If you use this code, please cite the book:
   year   = {2026}
 }
 ``` -->
+
+## License
+
+The code in this repository is released under the [MIT License](LICENSE). The book text itself is not covered by this license.
